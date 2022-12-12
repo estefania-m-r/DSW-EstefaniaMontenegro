@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Estefania Montenegro">
+    <meta name="description" content="Concepto: Flexbox, Listas y enlaces">
+    <meta name="keywords" content="HTML,CSS,WEB, FLEX, LISTAS, ENLACES, HREF, FLEXBOX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y enlaces</title>
+    <link rel="stylesheet" href="css/misEstilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <img src="img/flexbox.png" alt="Imagen de logo" height="100" width="200">
+        <h1>Diseño de Sitios Web: Aprendiendo Listas y enlaces</h1>
+        <img src="img/html.png" alt="Imagen de html" height="100" width="100">
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Flex.html">Flex Box</a></li>
+                            <li><a class="dropdown-item" href="Listas_Enlaces.html">Listas y enlaces</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Recursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recurso1.html">Audio_Flex_Box</a></li>
+                            <li><a class="dropdown-item" href="recurso2.html">Audio_Listas y enlances</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Evaluaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="evaluacion1.html">Evaluacion1</a></li>
+                            <li><a class="dropdown-item" href="evaluacion2.html">Evaluacion2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="autor.html">Autor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="contenedor">
+        <aside>
+            <h4>Timeline</h4>
+            <a class="twitter-timeline" data-width="340" data-height="500"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+
+        <section>
+            <article class="justificado">
+
+                <h3>Hipervínculos</h3>
+                Los hipervínculos permiten vincular un documento HTML con otros recursos, tales como otro documento
+                HTML, una imagen, un archivo de sonido,
+                un archivo pdf, entre otros. Un hipervínculo necesita de dos elementos: el
+                nombre del archivo o URL del recurso que se desea vincular y el texto que
+                servirá para establecer el vínculo al recurso, sobre el cual el usuario dará click
+                en la página web.
+                La etiqueta "a" es utilizada para definir hipervínculos. El texto delimitado
+                entre su etiqueta inicial "a" y su etiqueta final "/a" será el texto sobre el
+                cual un usuario puede dar click para navegar al vínculo establecido. El nombre del archivo o URL del
+                recurso que se desea vincular es definido mediante
+                el atributo href de la etiqueta "a". En la mayoría de los navegadores web,
+                cuando el cursor es colocado por encima de un hipervínculo, este cambia
+                de apariencia. <br>
+                <h3>Listas no ordenadas</h3>
+                Una lista no ordenada es una lista de elementos marcados con viñetas. En
+                esta sección se presentan las etiquetas que se utilizan para visualizar en el
+                navegador web una lista no ordenada con sus diferentes tipos de viñetas.
+                La etiqueta ul> permite crear una lista no ordenada, la cual estará delimitada por la etiqueta
+                inicial "ul" y la etiqueta final "/ul". Cada elemento
+                de la lista es creado con la etiqueta li, que también tiene etiqueta inicial
+                li y etiqueta final "/li".
+                Un elemento li de una lista ul puede contener párrafos p, saltos
+                de línea br/, imágenes img, hipervínculos a, otras listas, etc.
+                
+
+                        <h3>Listas ordenadas</h3>
+                        Una lista ordenada es una lista de elementos marcados con números, números romanos o
+                        caracteres alfabéticos. En esta sección se presentan las etiquetas que se utilizan para
+                        visualizar en el navegador web una lista ordenada
+                        con sus diferentes tipos de ordenamiento.
+                        La etiqueta ol permite crear una lista ordenada, la cual se encuentra delimitada por la
+                        etiqueta inicial ol y la etiqueta final /ol. Cada
+                        elemento de la lista es creado con la etiqueta li, la cual también tiene
+                        etiqueta inicial li y etiqueta final /li.
+                        Un elemento li de una lista ol puede contener párrafos p, saltos
+                        de línea br/, imágenes img, hipervínculos a, otras listas, etc
+
+            </article>
+
+        </section>
+
+    </div>
+
+
+    <footer>
+        <p> Estefania Montenegro | fecha de actualización: Oct. 2022 <br>
+            Sitio web utilizando HTML5 dando estilos con CSS3
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

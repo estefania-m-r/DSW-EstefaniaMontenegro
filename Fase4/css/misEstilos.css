@@ -3,11 +3,11 @@
     border-radius: 3px;
 }
 header{
-    background-color: rgb(18, 14, 24);
+    background-color: rgb(214, 234, 248);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #191970;
 }
 
 .contenedor{
@@ -16,16 +16,16 @@ header{
 }
 aside{
     grid-column: 1/2;
-    background-color: rgb(159, 92, 226);
+    background-color: #191970;
 }
 section{
     grid-column: 2/5;
-    background-color: rgb(218, 199, 238);
+    background-color: #E0FFFF;
 }
 
 footer{
     text-align: center;
-    background-color: rgb(2, 31, 2);
+    background-color: #663399;
     color: white;
     padding: 10px;
 }
@@ -44,8 +44,8 @@ footer{
 nav ul {
     list-style: none;
     /* padding: 2px; */
-    color: #fff;
-    background: black;
+    color: white;
+    background: turquoise;
 }
 .menu li {
     width: 100%;
@@ -57,13 +57,13 @@ nav ul {
     align-items: center;
     justify-content: center;
     color: #fff;
-    background:rgb(209, 173, 146);
+    background: rgb(52, 152, 219)
     /* height: 25px; */
     text-decoration: none;
 }
 
 .dropdown li {
-    display: none;
+    display: flex;
 }
 .menu li:hover .dropdown li {
     display: block;

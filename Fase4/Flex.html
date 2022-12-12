@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Estefania Montenegro">
+    <meta name="description" content="Concepto: Flexbox, Listas y enlaces">
+    <meta name="keywords" content="HTML,CSS,WEB, FLEX, LISTAS, ENLACES, HREF, FLEXBOX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="css/misEstilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <img src="img/flexbox.png" alt="Imagen de logo" height="100" width="200">
+        <h1>Diseño de Sitios Web: Aprendiendo Flex Box</h1>
+        <img src="img/html.png" alt="Imagen de html" height="100" width="100">
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Aprendizaje
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Flex.html">Flex Box</a></li>
+                            <li><a class="dropdown-item" href="Listas_Enlaces.html">Listas y enlaces</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Recursos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="recurso1.html">Audio_Flex_Box</a></li>
+                            <li><a class="dropdown-item" href="recurso2.html">Audio_Listas y enlances</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Evaluaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="evaluacion1.html">Evaluacion1</a></li>
+                            <li><a class="dropdown-item" href="evaluacion2.html">Evaluacion2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="autor.html">Autor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="contenedor">
+        <aside>
+            <h4>Timeline</h4>
+            <a class="twitter-timeline" data-width="340" data-height="500"
+                href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+
+        <section>
+            <article class="justificado">
+                <h2>Flexbox</h2>
+                Flexbox tiene como objetivo proporcionar una forma más eficiente de diseñar, alinear y distribuir el
+                espacio entre los elementos en un contenedor, incluso cuando su tamaño es desconocido y/o dinámico (por
+                lo tanto, el palabra “flexionar”). <br>
+                La idea principal detrás del diseño flexible es darle al contenedor la capacidad de modificar el
+                ancho/alto (y el orden) de sus elementos para llenar mejor el espacio disponible (principalmente para
+                adaptarse a todo tipo de dispositivos de visualización y tamaños de pantalla). Un contenedor flexible
+                expande los elementos para llenar el espacio libre disponible o los reduce para evitar el
+                desbordamiento.
+                Lo que es más importante, el diseño de flexbox es independiente de la dirección a diferencia de los
+                diseños normales (bloque que tiene una base vertical y en línea que tiene una base horizontal). Si bien
+                funcionan bien para las páginas, carecen de flexibilidad (sin juego de palabras) para admitir
+                aplicaciones grandes o complejas (especialmente cuando se trata de cambiar la orientación, cambiar el
+                tamaño, estirar, encoger, etc.).
+                <h2> Propiedades de Flexbox</h2><br>
+                <img src="img/1.PNG" alt="Imagen de propiedades" height="200" width="300"><br>
+                <img src="img/2.PNG" alt="Imagen de propiedades" height="250" width="300"><br>
+                <img src="img/3.PNG" alt="Imagen de propiedades" height="250" width="300"><br>
+
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p> Estefania Montenegro | fecha de actualización: Oct. 2022 <br>
+            Sitio web utilizando HTML5 dando estilos con CSS3
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
